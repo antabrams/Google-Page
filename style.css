@@ -1,0 +1,111 @@
+@import url('https://fonts.cdnfonts.com/css/product-sans');
+
+*{
+    font-family: 'Product Sans', Courier, monospace;
+}
+
+body{
+    background: url(assets/big-city_1127-3102.avif);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+header img{
+    width: 40px;
+    height: 40px;
+    border-radius: 500px;
+    border: none;
+}
+
+header{
+    display: flex;
+    color: white;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 42%;
+    cursor: pointer;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.container .logo{
+    color: white;
+}
+
+.add-shortcut{
+    color: white;
+}
+
+.search .bx{
+    color: white;
+}
+
+header .bx{
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.logo{
+    font-size: 40px;
+}
+
+.search input{
+    width: 50rem;
+    padding: 10px;
+    border-radius: 500px;
+    border: none;
+}
+
+.search .bx{
+    color: grey;
+    font-size: 18px;
+    position: relative;
+    right: 8%;
+    top: 4px;
+    cursor: pointer;
+}
+
+.container .add-shortcut{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    align-items: center;
+    cursor: pointer;
+    padding: 30px;
+    cursor: pointer;
+}
+
+button{
+    padding-inline: 10px;
+    cursor: pointer;
+}
+
+.add-shortcut button{
+    border: none;
+    background-color: white;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 500px;
+    cursor: pointer;
+}
+
+header li:hover{
+    text-decoration: underline;
+}
